@@ -71,8 +71,8 @@ def draw_upside_down_wall(rectangle, n, window):
         print(corner_1)
         corner_1.y = corner_1.y - distancey
         corner_2.y = corner_2.y - distancey
-        corner_1.x = rectangle.corner_1.x - distancex * (3 + 2*k)
-        corner_2.x = rectangle.corner_2.x - distancex * (3 + 2*k)
+        corner_1.x = rectangle.corner_1.x - distancex * (3 + 2 * k)
+        corner_2.x = rectangle.corner_2.x - distancex * (3 + 2 * k)
 
 
 # ----------------------------------------------------------------------
